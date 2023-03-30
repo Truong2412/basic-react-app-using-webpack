@@ -1,7 +1,7 @@
 run npm i first
 edit ts, eslint , prettier rules depend on your project requirement.
 
-edit VSCode:
+for settup prettier in VSCode:
 User Settings
 Settings that will apply globally to any instance of VSCode on your machine.
 Workspace Settings
