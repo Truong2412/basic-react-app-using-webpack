@@ -1,0 +1,19 @@
+run npm i first
+edit ts, eslint , prettier rules depend on your project requirement.
+
+edit VSCode:
+User Settings
+Settings that will apply globally to any instance of VSCode on your machine.
+Workspace Settings
+Settings that are set inside your project that will be applied every time your specific project is open
+{
+  "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+  "editor.formatOnPaste": false, // required
+  "editor.formatOnType": false, // required
+  "editor.formatOnSave": true, // optional
+  "editor.formatOnSaveMode": "file", // required to format on save
+  "files.autoSave": "onFocusChange" // optional but recommended
+}
+for run app read: package.json
+
+thanks for read
